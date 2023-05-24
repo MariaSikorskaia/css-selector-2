@@ -2,15 +2,15 @@
     color: red;
     background: yellow;
 }
-.lesson-four-task-two h1:hover {
+.lesson-four-task-two .link:hover + .title {
     background: green;
 }
  .lesson-four-task-three a:visited {
     color: yellow;
   }
- .lesson-four-task-four
-  a[href="#sidebar"]:link {
+ .lesson-four-task-four #sidebar a:link {
     color: red;
+    background-color: transparent;
   }
   .lesson-four-task-five .btn:active {
     background: blue;
@@ -63,9 +63,9 @@
     background: red;
   }
   .lesson-four-task-nineteen 
-  .btn-group:focus-within {
-    color: #fff;
-    background: yellow;
+  .btn-group :focus-within {
+    background-color: #ff0;
+    color:#fff;
   }
   .lesson-four-task-twenty input:invalid {
     background: red;
